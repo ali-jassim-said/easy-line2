@@ -1,0 +1,119 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.login {
+  height: 100vh !important;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.form {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.img {
+  width: 100%;
+  height: 100vh;
+}
+
+.img img {
+  width: 100%;
+  height: 99vh;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+form h1 {
+  color: #344767;
+  margin: 0;
+}
+
+form p {
+  color: #72808d;
+  margin: 0;
+}
+
+form .text {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #a5b0ba;
+  outline: none;
+}
+
+form .text::placeholder {
+  color: #a5b0ba;
+}
+
+form .pass {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #a5b0ba;
+  outline: none;
+}
+
+form .pass::placeholder {
+  color: #a5b0ba;
+}
+
+form .button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  background-image: linear-gradient(310deg, #2dce89 0%, #2dcecc 100%);
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+
+
+/* loading.css */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #7986cb;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
